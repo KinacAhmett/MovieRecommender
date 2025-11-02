@@ -1,0 +1,32 @@
+{
+  "name": "movie-recommend-backend",
+  "version": "1.0.0",
+  "description": "Hybrid film öneri sistemi - Node.js backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "setup": "npm install && node setup.js",
+    "test": "echo \"Testler henüz yok\" && exit 0"
+  },
+  "keywords": [
+    "movie",
+    "recommendation",
+    "tmdb"
+  ],
+  "author": "Ahmet Kınaç",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.12.2",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.19.1",
+    "react-router-dom": "^7.9.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
